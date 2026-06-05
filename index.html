@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>TripAdvisor Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <!-- HEADER -->
+
+<header class="header">
+
+    <div class="logo">
+
+        <i class="fa-solid fa-location-dot"></i>
+
+        <span>TripAdvisor</span>
+
+    </div>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            placeholder="Search destinations, hotels, restaurants">
+
+        <button>
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </button>
+
+    </div>
+
+    <div class="header-links">
+
+        <a href="#">Hotels</a>
+
+        <a href="#">Flights</a>
+
+        <a href="#">Restaurants</a>
+
+        <a href="#">Sign In</a>
+
+    </div>
+
+</header>
+
+    <!-- NAVIGATION -->
+    <!-- NAVIGATION -->
+
+<nav class="navbar">
+
+    <ul class="nav-menu">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#destinations">Destinations</a></li>
+
+        <li><a href="#hotels">Hotels</a></li>
+
+        <li><a href="#restaurants">Restaurants</a></li>
+
+        <li><a href="#activities">Activities</a></li>
+
+    </ul>
+
+</nav>
+
+    <!-- HERO -->
+    <!-- HERO SECTION -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+            Explore The World's Best Destinations
+        </h1>
+
+        <p>
+            Discover amazing hotels, restaurants,
+            attractions and travel experiences
+            recommended by millions of travelers.
+        </p>
+
+        <div class="hero-search">
+
+            <input
+                type="text"
+                placeholder="Search destinations, hotels or attractions">
+
+            <button>
+                Explore Now
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- FILTER -->
+    <!-- FILTER SECTION -->
+
+<section class="filter-section">
+
+    <div class="filter-container">
+
+        <h2>
+            Find Your Perfect Destination
+        </h2>
+
+        <input
+            type="text"
+            placeholder="Enter City or Destination">
+
+        <div class="filter-options">
+
+            <select>
+
+                <option>
+                    Price Range
+                </option>
+
+                <option>
+                    ₹1000 - ₹3000
+                </option>
+
+                <option>
+                    ₹3000 - ₹5000
+                </option>
+
+                <option>
+                    ₹5000+
+                </option>
+
+            </select>
+
+            <select>
+
+                <option>
+                    Rating
+                </option>
+
+                <option>
+                    ⭐ 3+
+                </option>
+
+                <option>
+                    ⭐ 4+
+                </option>
+
+                <option>
+                    ⭐ 5
+                </option>
+
+            </select>
+
+            <select>
+
+                <option>
+                    Category
+                </option>
+
+                <option>
+                    Hotels
+                </option>
+
+                <option>
+                    Restaurants
+                </option>
+
+                <option>
+                    Attractions
+                </option>
+
+            </select>
+
+        </div>
+
+        <button class="filter-btn">
+
+            Search Now
+
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- DESTINATIONS -->
+    <!-- FEATURED DESTINATIONS -->
+
+<section id="destinations" class="destinations">
+
+    <div class="section-title">
+
+        <h2>Featured Destinations</h2>
+
+        <p>
+            Explore the most loved destinations around the world.
+        </p>
+
+    </div>
+
+    <div class="card-container">
+
+        <!-- CARD 1 -->
+
+        <div class="card">
+
+            <img src="images/paris.jpg" alt="Paris">
+
+            <div class="card-content">
+
+                <h3>Paris</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Experience the romance, culture,
+                    and iconic landmarks of Paris.
+                </p>
+
+                <button>
+                    View Details
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+
+        <div class="card">
+
+            <img src="images/dubai.jpg" alt="Dubai">
+
+            <div class="card-content">
+
+                <h3>Dubai</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Discover luxury shopping,
+                    skyscrapers and desert adventures.
+                </p>
+
+                <button>
+                    View Details
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div class="card">
+
+            <img src="images/london.jpg" alt="London">
+
+            <div class="card-content">
+
+                <h3>London</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐☆
+                </div>
+
+                <p>
+                    Visit historic landmarks,
+                    museums and famous attractions.
+                </p>
+
+                <button>
+                    View Details
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- HOTELS -->
+    <!-- POPULAR HOTELS -->
+
+<section id="hotels" class="hotels">
+
+    <div class="section-title">
+
+        <h2>Popular Hotels</h2>
+
+        <p>
+            Discover top-rated hotels loved by travelers.
+        </p>
+
+    </div>
+
+    <div class="card-container">
+
+        <!-- HOTEL 1 -->
+
+        <div class="card">
+
+            <img src="images/hotel1.jpg" alt="Hotel">
+
+            <div class="card-content">
+
+                <h3>Grand Palace Hotel</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Luxury accommodation with premium
+                    facilities and city views.
+                </p>
+
+                <h4>₹5,500 / Night</h4>
+
+                <button>
+                    Book Now
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- HOTEL 2 -->
+
+        <div class="card">
+
+            <img src="images/hotel2.jpg" alt="Hotel">
+
+            <div class="card-content">
+
+                <h3>Royal Residency</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐☆
+                </div>
+
+                <p>
+                    Comfortable stay with modern rooms
+                    and excellent service.
+                </p>
+
+                <h4>₹3,500 / Night</h4>
+
+                <button>
+                    Book Now
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- HOTEL 3 -->
+
+        <div class="card">
+
+            <img src="images/hotel3.jpg" alt="Hotel">
+
+            <div class="card-content">
+
+                <h3>Sea View Resort</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Relax by the beach with stunning
+                    ocean views and luxury amenities.
+                </p>
+
+                <h4>₹6,000 / Night</h4>
+
+                <button>
+                    Book Now
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- RESTAURANTS -->
+   <!-- TOP RATED RESTAURANTS -->
+
+<section id="restaurants" class="restaurants">
+
+    <div class="section-title">
+
+        <h2>Top Rated Restaurants</h2>
+
+        <p>
+            Enjoy delicious cuisines from the world's best restaurants.
+        </p>
+
+    </div>
+
+    <div class="card-container">
+
+        <!-- RESTAURANT 1 -->
+
+        <div class="card">
+
+            <img src="images/restaurant1.jpg" alt="Restaurant">
+
+            <div class="card-content">
+
+                <h3>Italian Delight</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Authentic Italian dishes with fresh
+                    ingredients and premium service.
+                </p>
+
+                <h4>Italian Cuisine</h4>
+
+                <button>
+                    Reserve Table
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- RESTAURANT 2 -->
+
+        <div class="card">
+
+            <img src="images/restaurant2.jpg" alt="Restaurant">
+
+            <div class="card-content">
+
+                <h3>Spice Garden</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐☆
+                </div>
+
+                <p>
+                    Traditional Indian flavors prepared
+                    with rich spices and recipes.
+                </p>
+
+                <h4>Indian Cuisine</h4>
+
+                <button>
+                    Reserve Table
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- RESTAURANT 3 -->
+
+        <div class="card">
+
+            <img src="images/restaurant3.jpg" alt="Restaurant">
+
+            <div class="card-content">
+
+                <h3>Ocean Grill</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Fresh seafood specialties served
+                    with a beautiful ocean view.
+                </p>
+
+                <h4>Seafood Special</h4>
+
+                <button>
+                    Reserve Table
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ACTIVITIES -->
+    <!-- THINGS TO DO -->
+
+<section id="activities" class="activities">
+
+    <div class="section-title">
+
+        <h2>Things To Do</h2>
+
+        <p>
+            Discover exciting activities and unforgettable experiences.
+        </p>
+
+    </div>
+
+    <div class="card-container">
+
+        <!-- ACTIVITY 1 -->
+
+        <div class="card">
+
+            <img src="images/activity1.jpg" alt="Activity">
+
+            <div class="card-content">
+
+                <h3>Mountain Hiking</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Explore beautiful mountain trails
+                    and enjoy breathtaking views.
+                </p>
+
+                <button>
+                    Explore Activity
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- ACTIVITY 2 -->
+
+        <div class="card">
+
+            <img src="images/activity2.jpg" alt="Activity">
+
+            <div class="card-content">
+
+                <h3>Desert Safari</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Experience thrilling dune rides,
+                    cultural shows and desert camping.
+                </p>
+
+                <button>
+                    Explore Activity
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- ACTIVITY 3 -->
+
+        <div class="card">
+
+            <img src="images/activity3.jpg" alt="Activity">
+
+            <div class="card-content">
+
+                <h3>City Sightseeing</h3>
+
+                <div class="rating">
+                    ⭐⭐⭐⭐☆
+                </div>
+
+                <p>
+                    Visit famous landmarks and enjoy
+                    guided tours across the city.
+                </p>
+
+                <button>
+                    Explore Activity
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>  
+
+    <!-- STATS -->
+   <!-- TRAVEL STATISTICS -->
+
+<section class="stats">
+
+    <div class="stats-container">
+
+        <div class="stat-card">
+
+            <h2>500+</h2>
+
+            <p>Destinations</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>1200+</h2>
+
+            <p>Hotels</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>2500+</h2>
+
+            <p>Restaurants</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>10000+</h2>
+
+            <p>Happy Travelers</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- NEWSLETTER -->
+    <!-- NEWSLETTER -->
+
+<section class="newsletter">
+
+    <div class="newsletter-content">
+
+        <h2>
+            Get Travel Inspiration Directly To Your Inbox
+        </h2>
+
+        <p>
+            Subscribe to receive travel tips,
+            destination guides and exclusive offers.
+        </p>
+
+        <div class="newsletter-form">
+
+            <input
+                type="email"
+                placeholder="Enter Your Email Address">
+
+            <button>
+                Subscribe
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- COLUMN 1 -->
+
+        <div class="footer-box">
+
+            <h3>TripAdvisor</h3>
+
+            <p>
+                Discover amazing destinations,
+                hotels, restaurants and activities
+                around the world.
+            </p>
+
+        </div>
+
+        <!-- COLUMN 2 -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">Destinations</a>
+                </li>
+
+                <li>
+                    <a href="#">Hotels</a>
+                </li>
+
+                <li>
+                    <a href="#">Restaurants</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- COLUMN 3 -->
+
+        <div class="footer-box">
+
+            <h3>Support</h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">Help Center</a>
+                </li>
+
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- COLUMN 4 -->
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 TripAdvisor Clone | All Rights Reserved
+        </p>
+
+    </div>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
